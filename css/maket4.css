@@ -1,0 +1,94 @@
+
+/*.box{
+    width: 100vw; 
+    margin: 0 auto;
+    background-color: bisque;
+   
+    
+} непонятно для чего
+
+.header{
+    height: 6vh;
+    background-color: aqua;
+    border: 1px solid red;
+    font-size: 2em;
+    text-align: center;
+}
+
+.leftCol{
+    float: left;
+    width: 70vw;
+    height: 80vh;
+    margin-top: 10px;
+    background-color: blueviolet;
+    overflow: auto;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.rightCol{
+    margin-left: 70vw;
+    height: 80vh;
+    margin-top: 10px;
+    background-color: green;
+    overflow: auto;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.footer{
+    height: 6vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 1px solid red;
+    margin-top: 10px;
+}*/
+
+
+.box {
+    width: 800px; 
+    margin: 0 auto;
+    background-color: aqua;
+   }
+
+   .header{
+    height: 25px;
+    background-color: yellow;
+    text-align: center;
+    border: 1px solid red;
+    font-size: 2em;
+    padding: 5px;
+}
+
+   .leftCol {
+    float: left;
+    background-color: blue;
+    width: 576px;
+    padding: 5px;
+    border: 1px solid red;
+    margin-top: 5px;
+   }
+
+   .rightCol {
+    float: left;
+    background-color: green;
+    width: 200px;
+    padding: 5px;
+    border: 1px solid red;
+    margin-top: 5px;
+   }
+
+   .clear {
+    clear: left;
+   }
+   
+   .footer{
+    height: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 1px solid red;
+    margin-top: 5px;
+    padding: 5px;/*текст не входит в подвал*/
+}

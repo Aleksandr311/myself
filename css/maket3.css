@@ -1,0 +1,61 @@
+.box{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 80vh;
+    background-color: aqua;
+    border: 3px solid orangered;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.header{
+    height: 6vh;
+    background-color: blue;
+    text-align: center;
+    border: 1px solid red;
+    font-size: 2em;
+}
+
+.leftCol{
+    display: flex;
+    float: left;
+    width: 20vw;
+    /*height: 80vh;*/
+    
+    background-color: blueviolet;
+    overflow: auto;
+    border: 1px solid red;
+    text-align: center;/*почему не встает текст по центру?*/
+}
+
+.centerCol{
+    display: flex;
+    /*height: 80vh;*/
+    width: 55vw;
+    overflow: auto;
+    border: 1px solid red;
+    background-color: chartreuse;
+    text-align: center;/*почему не встает текст по центру?*/
+}
+
+.rightCol{
+    display: flex;
+    float: right;
+    width: 20vw;
+    /*height: 80vh;*/
+    
+    background-color: burlywood;
+    overflow: auto;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.footer{
+    height: 6vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 1px solid red;
+    margin-top: 10px;
+}

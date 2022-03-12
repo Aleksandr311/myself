@@ -1,0 +1,50 @@
+
+.box{
+    position: relative;
+    width: 900px; 
+    margin: 0 auto;
+    background-color: bisque;
+    
+}
+
+.header{
+    height: 40px;
+    background-color: aqua;
+    text-align: center;
+    border: 1px solid red;
+    font-size: 2em;
+}
+
+.leftCol{
+    margin-right: 250px;
+    width: 650px;
+    height: 400px;
+    margin-top: 10px;
+    background-color: blueviolet;
+    overflow: auto;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.rightCol{
+    position: absolute;
+    right: 0;
+    width: 246px;
+    height: 400px;
+    margin-top: 10px;
+    
+    
+    background-color: burlywood;
+    overflow: auto;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.footer{
+    height: 6vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 1px solid red;
+    margin-top: 10px;
+}
