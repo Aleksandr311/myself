@@ -17,19 +17,16 @@ body{
 
 .ship{
     background-position: -550px 0;
+    text-align: center;
     
 }
 .airplane{
     background-position: -350px 0;
+    text-align: center;
 }
 .car{
     background-position: -350px 400px;
+    text-align: center;
 }
 
-/*.img1{
-    background:url(https://icons.iconarchive.com/icons/alecive/flatwoken/256/Apps-Icon-Template-icon.png);
-    width: 256px;
-    height: 256px;
-    display: inline-block;
-    margin: 0 256px;
-}*/
+
